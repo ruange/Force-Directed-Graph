@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Force-directed graph</title>
+		<style>
+			body { background: white; font: 13px/13px helvetica, sans-serif; }
+			#canvas { display: block; margin: auto; width: 960px; height: 720px; border: #111 1px solid; }
+		</style>
+		<script type="text/javascript" src="graph.js"></script>
+	</head>
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" id="canvas"></svg>
+		<script type="text/javascript">
+		<![CDATA[
+			var g = new Graph("canvas", 1200, 800 );
+	
+			g.createVertex("1");
+			g.createVertex("2");
+			g.createEdge("2","1");
+			g.createVertex("3");
+			g.createEdge("3","2");
+			g.createVertex("4");
+			g.createEdge("4","3");
+			g.createVertex("5");
+			g.createEdge("5","4");
+			g.createVertex("6");
+			g.createEdge("6","5");
+			g.createVertex("7");
+			g.createEdge("7","6");
+			g.createVertex("8");
+			g.createEdge("8","6");
+			g.createVertex("9");
+			g.createEdge("9","6");
+			g.createVertex("10");
+			g.createEdge("10","6");
+			g.createVertex("11");
+			g.createEdge("11","2");
+			g.createEdge("2","10");
+			g.createEdge("1","7");
+			g.createVertex("12");
+			g.createVertex("13");
+			g.createVertex("14");
+			g.createVertex("15");
+			g.createVertex("16");
+			g.createVertex("17");
+			g.createVertex("18");
+			g.createVertex("19");
+			g.createVertex("20");
+			
+			g.createEdge("12","13");g.createEdge("13","14");g.createEdge("14","8");
+			g.createEdge("15","13");g.createEdge("16","6");g.createEdge("17","16");g.createEdge("18","2");
+			g.createEdge("19","7");g.createEdge("20","5");
+			g.createVertex("21");g.createEdge("21","5");g.createEdge("21","12");
+			g.createVertex("22");g.createEdge("22","4");g.createEdge("22","5");
+			g.createVertex("23");g.createEdge("23","14");
+			g.createVertex("24");g.createEdge("24","22");
+			g.createVertex("25");g.createEdge("25","18");
+			g.createVertex("26");g.createEdge("26","13");
+			g.createVertex("27");g.createEdge("27","20");
+			g.createVertex("28");g.createEdge("28","25");
+			g.createVertex("29");g.createEdge("29","16");
+			g.createVertex("30");g.createEdge("30","19");
+			
+			<!-- g.createVertex("31");g.createEdge("31","15");g.createEdge("31","17"); -->
+			<!-- g.createVertex("32");g.createEdge("32","29");g.createEdge("32","30"); -->
+			<!-- g.createVertex("33");g.createEdge("33","1"); -->
+			<!-- g.createVertex("34");g.createEdge("34","22"); -->
+			<!-- g.createVertex("35");g.createEdge("35","18"); -->
+			<!-- g.createVertex("36");g.createEdge("36","8"); -->
+			<!-- g.createVertex("37");g.createEdge("37","24"); -->
+			<!-- g.createVertex("38");g.createEdge("38","23"); -->
+			<!-- g.createVertex("39");g.createEdge("39","25"); -->
+			<!-- g.createVertex("40");g.createEdge("40","19"); -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			g.go();
+		]]>
+		</script>
+	</body>
+</html>
