@@ -65,7 +65,7 @@ The force-directed layout algorithm is easy-understanding.We treat each node as 
   	node.x= node.x + dx
   	node.y = node.y + dy
 
-##Improvements
+## Improvements
 We all know that the bottleleck of this algorithm lies in the calculation of repulsion between all vertices pairs and the general algorithm complexity is O(n^2) for every iteration.There are ways to improve its performance to O(n*logn) using quard-tree or K-d tree data structure etc.There are also some simple ways to optimize it.Here are my improvements:
 
 - Using the simulated annealing algorithm.
@@ -80,5 +80,7 @@ In order to decrease the calculation of the repulsion,we can ignore the repulsio
 - Some minor improvements such as presenting the constant calculation code out of the loop to avoid unnecessary cost on the performance.
 
 
-##Display
+## Display
+
+Run the demo.xhtml in your browser.
 
