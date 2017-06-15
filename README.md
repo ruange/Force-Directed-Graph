@@ -84,3 +84,5 @@ In order to decrease the calculation of the repulsion,we can ignore the repulsio
 
 Run the demo.xhtml in your browser.
 
+![](https://github.com/ruange/Force-Directed-Graph/blob/master/Animation.gif)
+
